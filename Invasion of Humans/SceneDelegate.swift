@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Invasion of Humans
 //
-//  Created by Recep Bayraktar on 28.04.2021.
+//  Created by Recep Bayraktar on 01.05.2021.
 //
 
 import UIKit

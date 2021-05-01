@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B134329263C46BD009B341D /* LaunchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B134328263C46BD009B341D /* LaunchDetailsViewController.swift */; };
+		3B5E2A99263AEE9B00430539 /* LaunchesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E2A98263AEE9B00430539 /* LaunchesCollectionViewCell.swift */; };
 		3BE07AD926397D38007573D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE07AD826397D38007573D6 /* AppDelegate.swift */; };
 		3BE07ADB26397D38007573D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE07ADA26397D38007573D6 /* SceneDelegate.swift */; };
-		3BE07ADD26397D38007573D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE07ADC26397D38007573D6 /* ViewController.swift */; };
+		3BE07ADD26397D38007573D6 /* LaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE07ADC26397D38007573D6 /* LaunchesViewController.swift */; };
 		3BE07AE026397D38007573D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE07ADE26397D38007573D6 /* Main.storyboard */; };
 		3BE07AE226397D42007573D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE07AE126397D42007573D6 /* Assets.xcassets */; };
 		3BE07AE526397D42007573D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE07AE326397D42007573D6 /* LaunchScreen.storyboard */; };
+		3BE07AF12639B240007573D6 /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE07AF02639B240007573D6 /* LaunchModel.swift */; };
+		3BFE6E95263AC2F20040BD53 /* LaunchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE6E94263AC2F20040BD53 /* LaunchesViewModel.swift */; };
+		67C27A2C02E1219AD5476819 /* Pods_Invasion_of_Humans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F768184EFD2975BD8757C6F /* Pods_Invasion_of_Humans.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B134328263C46BD009B341D /* LaunchDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailsViewController.swift; sourceTree = "<group>"; };
+		3B5E2A98263AEE9B00430539 /* LaunchesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesCollectionViewCell.swift; sourceTree = "<group>"; };
 		3BE07AD526397D38007573D6 /* Invasion of Humans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Invasion of Humans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE07AD826397D38007573D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BE07ADA26397D38007573D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BE07ADC26397D38007573D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BE07ADC26397D38007573D6 /* LaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewController.swift; sourceTree = "<group>"; };
 		3BE07ADF26397D38007573D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BE07AE126397D42007573D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BE07AE426397D42007573D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BE07AE626397D42007573D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE07AF02639B240007573D6 /* LaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
+		3BFE6E94263AC2F20040BD53 /* LaunchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewModel.swift; sourceTree = "<group>"; };
+		3EB0FA39302684E5CFF527EA /* Pods-Invasion of Humans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invasion of Humans.release.xcconfig"; path = "Target Support Files/Pods-Invasion of Humans/Pods-Invasion of Humans.release.xcconfig"; sourceTree = "<group>"; };
+		9F768184EFD2975BD8757C6F /* Pods_Invasion_of_Humans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Invasion_of_Humans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16B665AD2800AF2002A4067 /* Pods-Invasion of Humans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invasion of Humans.debug.xcconfig"; path = "Target Support Files/Pods-Invasion of Humans/Pods-Invasion of Humans.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C27A2C02E1219AD5476819 /* Pods_Invasion_of_Humans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39DD849B66C4DDF9AFB04502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F768184EFD2975BD8757C6F /* Pods_Invasion_of_Humans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B5E2A97263AEE7B00430539 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E2A98263AEE9B00430539 /* LaunchesCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		3BE07ACC26397D38007573D6 = {
 			isa = PBXGroup;
 			children = (
 				3BE07AD726397D38007573D6 /* Invasion of Humans */,
 				3BE07AD626397D38007573D6 /* Products */,
+				59DDCE729599D818E631F1CD /* Pods */,
+				39DD849B66C4DDF9AFB04502 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +89,58 @@
 			children = (
 				3BE07AD826397D38007573D6 /* AppDelegate.swift */,
 				3BE07ADA26397D38007573D6 /* SceneDelegate.swift */,
-				3BE07ADC26397D38007573D6 /* ViewController.swift */,
-				3BE07ADE26397D38007573D6 /* Main.storyboard */,
+				3BE07AEF2639B20A007573D6 /* Storyboards */,
+				3BE07AEE2639B204007573D6 /* Model */,
+				3BE07AED2639B1EF007573D6 /* View */,
+				3BE07AEC2639B1E7007573D6 /* ViewModel */,
 				3BE07AE126397D42007573D6 /* Assets.xcassets */,
-				3BE07AE326397D42007573D6 /* LaunchScreen.storyboard */,
 				3BE07AE626397D42007573D6 /* Info.plist */,
 			);
 			path = "Invasion of Humans";
+			sourceTree = "<group>";
+		};
+		3BE07AEC2639B1E7007573D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE6E94263AC2F20040BD53 /* LaunchesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3BE07AED2639B1EF007573D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E2A97263AEE7B00430539 /* Cells */,
+				3BE07ADC26397D38007573D6 /* LaunchesViewController.swift */,
+				3B134328263C46BD009B341D /* LaunchDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BE07AEE2639B204007573D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BE07AF02639B240007573D6 /* LaunchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BE07AEF2639B20A007573D6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3BE07AE326397D42007573D6 /* LaunchScreen.storyboard */,
+				3BE07ADE26397D38007573D6 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		59DDCE729599D818E631F1CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16B665AD2800AF2002A4067 /* Pods-Invasion of Humans.debug.xcconfig */,
+				3EB0FA39302684E5CFF527EA /* Pods-Invasion of Humans.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BE07AE926397D42007573D6 /* Build configuration list for PBXNativeTarget "Invasion of Humans" */;
 			buildPhases = (
+				C84559D2FE44A8749B9731C0 /* [CP] Check Pods Manifest.lock */,
 				3BE07AD126397D38007573D6 /* Sources */,
 				3BE07AD226397D38007573D6 /* Frameworks */,
 				3BE07AD326397D38007573D6 /* Resources */,
+				ACAE9C10B0E9B31C23A99424 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +210,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ACAE9C10B0E9B31C23A99424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invasion of Humans/Pods-Invasion of Humans-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invasion of Humans/Pods-Invasion of Humans-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Invasion of Humans/Pods-Invasion of Humans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84559D2FE44A8749B9731C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Invasion of Humans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BE07AD126397D38007573D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE07ADD26397D38007573D6 /* ViewController.swift in Sources */,
+				3BE07AF12639B240007573D6 /* LaunchModel.swift in Sources */,
+				3BE07ADD26397D38007573D6 /* LaunchesViewController.swift in Sources */,
+				3B134329263C46BD009B341D /* LaunchDetailsViewController.swift in Sources */,
+				3BFE6E95263AC2F20040BD53 /* LaunchesViewModel.swift in Sources */,
 				3BE07AD926397D38007573D6 /* AppDelegate.swift in Sources */,
+				3B5E2A99263AEE9B00430539 /* LaunchesCollectionViewCell.swift in Sources */,
 				3BE07ADB26397D38007573D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +407,7 @@
 		};
 		3BE07AEA26397D42007573D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16B665AD2800AF2002A4067 /* Pods-Invasion of Humans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +421,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.recepbayraktar.Invasion-of-Humans";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3BE07AEB26397D42007573D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB0FA39302684E5CFF527EA /* Pods-Invasion of Humans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.recepbayraktar.Invasion-of-Humans";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
